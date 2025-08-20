@@ -1,1 +1,0 @@
-# terraform-zero-to-hero
