@@ -19,7 +19,7 @@ provider "aws" {
 
 # Singapore EC2
 resource "aws_instance" "example1" {
-  ami           = "ami-0779c82fbb81e731c" # Singapore AMI
+  ami           = "" # Singapore AMI
   instance_type = "t2.micro"
   provider      = aws.ap-southeast-1
 
@@ -30,7 +30,7 @@ resource "aws_instance" "example1" {
 
 # Sydney EC2
 resource "aws_instance" "example2" {
-  ami           = "ami-0a0b0b06dd1636865" # Sydney AMI
+  ami           = "" # Sydney AMI
   instance_type = "t2.micro"
   provider      = aws.ap-southeast-2
 
