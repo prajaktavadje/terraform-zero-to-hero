@@ -1,7 +1,8 @@
 # choose tag name
 variable "is_test_instance" {
     description = "tag name"
-    type = string
+    type = bool
+    default = "true"
   
 }
 
